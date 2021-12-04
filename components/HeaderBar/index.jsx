@@ -5,12 +5,12 @@ import { Text } from 'react-native';
 
 const HeaderBar = () => (
   <Container>
-    <Feather name='menu' size={28} color='#f4f5f6' />
+    <Feather name="menu" size={28} color="#f4f5f6" />
     <LogoHeader>Hola</LogoHeader>
     <MaterialCommunityIcons
-      name='message-text-outline'
+      name="message-text-outline"
       size={28}
-      color='#f4f5f6'
+      color="#f4f5f6"
     />
   </Container>
 );

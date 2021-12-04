@@ -12,7 +12,7 @@ export default function App() {
       <HeaderBar />
       <ImageCard />
       {DATA?.map((item) => (
-        <Card title={item.title} content={item.content} />
+        <Card key={item.id} title={item.title} content={item.content} />
       ))}
     </SafeAreaView>
   );
